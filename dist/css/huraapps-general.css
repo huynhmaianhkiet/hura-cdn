@@ -1,0 +1,37 @@
+#deals{
+    margin-top:30px;
+}
+.box-deal{
+    overflow: hidden;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 0 1px rgb(63 63 68 / 5%), 0 1px 3px 0 rgb(63 63 68 / 15%);
+    box-shadow: 0 0 0 1px rgb(63 63 68 / 5%), 0 1px 3px 0 rgb(63 63 68 / 15%);	
+    margin-bottom: 20px;			
+}
+.card-header{
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;				
+    margin-bottom: 20px;
+}
+.card-header h3.discount{
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+}
+.card-header p.type{
+    padding-top:10px;
+}
+.card-body{
+    text-align:center;
+    padding: 0px 10px 20px;
+}
+.card-body p.logo{
+    color: #000;
+    font-size: 150%;
+    font-weight: 600;
+}
+.card-body p.description{min-height: 80px;}
+.card-body p.button .btn{padding: 5px 25px;}
+@keyframes abeatheart{to{transform:scale(1.1);}}		
+.animation-beatheart{animation: abeatheart .25s infinite alternate;transform:translate3d(0,0,0);backface-visibility:hidden;perspective:1000px;}
